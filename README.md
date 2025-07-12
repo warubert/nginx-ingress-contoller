@@ -33,3 +33,9 @@ Utilizar https://nip.io/ para resolução de dominios nos testes
 kubectl apply -f deploy.yaml
 kubectl apply -f ingress.yaml
 ```
+
+## Escluindo cluster
+
+```bash
+kind delete cluster --name meucluster
+```
