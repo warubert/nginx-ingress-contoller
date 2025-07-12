@@ -34,7 +34,7 @@ kubectl apply -f deploy.yaml
 kubectl apply -f ingress.yaml
 ```
 
-## Escluindo cluster
+## Excluindo cluster
 
 ```bash
 kind delete cluster --name meucluster
